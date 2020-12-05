@@ -94,8 +94,7 @@ li a{
 /* -- services --*/
 .services{
     width: 100%;
-    height:500px;
-    border: solid;
+    height: 100%;
     text-align: center;
     padding-top: 50px;
 }
@@ -104,17 +103,81 @@ li a{
     text-transform: uppercase;
 }
 
-.services p{
+.services > p{
     font-style: italic;
     color: grey;
     font-size: 1.5em;
+    background: #ffffff; 
 }
 
 .main{
     width: 80%;
-    height: 200px;
-    border: ;
+    height: 300px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
 }
+.items{
+    width: 33.33%;
+    height: 100%;
+}
+.in_item{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.in_item h3{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.in_item p{
+    font-size: 1.2em;
+    color: grey;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right .in_item{
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
